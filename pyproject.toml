@@ -23,6 +23,9 @@ dependencies = [
     "requests>=2.20.0",
 ]
 
+[project.optional-dependencies]
+audio = ["soundfile>=0.12.0"]
+
 
 [dependency-groups]
 dev = [
